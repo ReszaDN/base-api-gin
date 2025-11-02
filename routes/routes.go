@@ -9,7 +9,7 @@ import (
 // main.go akan memanggil fungsi ini.
 func SetupRoutes(r *gin.Engine,
 	bookHandler *handler.BookHandler,
-// userHandler *handler.UserHandler, // <--- (Contoh jika nanti Anda punya modul user)
+	// userHandler *handler.UserHandler, // <--- (Contoh jika nanti Anda punya modul user)
 ) {
 
 	// Rute publik / non-versioned (Contoh: health check)
