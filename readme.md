@@ -89,11 +89,15 @@ Berikut adalah langkah-langkah untuk menjalankan proyek ini secara lokal.
 
 ### 2️⃣ Instalasi
 
-Clone repositori ini:
-```bash
-git clone [URL_GIT_ANDA_DI_SINI] base-be
-cd base-be
-```
+[//]: # (Clone repositori ini:)
+
+[//]: # (```bash)
+
+[//]: # (git clone [URL_GIT_ANDA_DI_SINI] base-be)
+
+[//]: # (cd base-be)
+
+[//]: # (```)
 
 Install dependensi:
 ```bash
@@ -109,7 +113,7 @@ Buat file config.yaml:
 cp config.yaml.example config.yaml
 ```
 
-*(Catatan: Anda perlu membuat file `config.yaml.example` terlebih dahulu sebagai template)*
+[//]: # (*&#40;Catatan: Anda perlu membuat file `config.yaml.example` terlebih dahulu sebagai template&#41;*)
 
 Edit config.yaml:
 ```yaml
