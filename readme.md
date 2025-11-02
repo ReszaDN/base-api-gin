@@ -174,8 +174,3 @@ Semua endpoint diawali dengan `/v1`.
 | DELETE  | /books/:id   | Menghapus buku berdasarkan ID |
 
 ---
-
-## ⚖️ Lisensi
-
-Didistribusikan di bawah Lisensi **MIT**.
-Lihat file `LICENSE` untuk informasi lebih lanjut.
