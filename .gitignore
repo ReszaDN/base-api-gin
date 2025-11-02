@@ -1,0 +1,43 @@
+# === Konfigurasi & Rahasia ===
+# SANGAT PENTING: Abaikan file konfigurasi yang berisi rahasia/password.
+config.yaml
+
+# Abaikan file .env jika Anda menggunakannya di masa depan
+.env
+.env.*
+!.env.example
+
+# === Binaries & Hasil Compile Go ===
+# Abaikan file executable hasil 'go build'
+# Ini adalah nama-nama dari folder 'cmd/' Anda
+api
+migrate
+
+# Tambahkan .exe untuk pengguna Windows
+api.exe
+migrate.exe
+
+# Abaikan file executable jika namanya sama dengan modul
+base-be
+base-be.exe
+
+# Abaikan folder build (jika Anda membuat folder /bin atau /dist)
+/bin/
+/dist/
+
+# === Dependensi Go ===
+# Abaikan folder vendor jika Anda menjalankan 'go mod vendor'
+/vendor/
+
+# === File Sistem Operasi (OS) ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === File IDE ===
+.idea/
+.vscode/
+
+# === File Log ===
+*.log
+*.log*
