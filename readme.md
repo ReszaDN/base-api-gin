@@ -34,23 +34,16 @@ base-be/
 │   └── config.go       # (Logika Viper untuk memuat config.yaml/env)
 │
 ├── dto/                # (Data Transfer Objects)
-│   └── book_dto.go     # (Structs: BookRequest, BookResponse. Validasi 'binding')
 │
 ├── entity/             # (Model/Entitas Database)
-│   └── book.go         # (Struct 'Book' dengan GORM tags)
 │
 ├── handler/            # (Lapisan HTTP)
-│   └── book_handler.go # (Gin handlers untuk 'Book': PostBook, GetBook, etc.)
 │
 ├── repository/         # (Lapisan Akses Data)
-│   └── book_repository.go # (Implementasi query GORM untuk 'Book')
 │
 ├── routes/             # (Definisi Rute/Endpoint)
-│   ├── routes.go       # (File Hub: SetupRoutes, membuat grup /v1, memanggil rute modular)
-│   └── book_routes.go  # (Modular: SetupBookRoutes, mendaftarkan /v1/books/...)
 │
 ├── service/            # (Lapisan Logika Bisnis)
-│   └── book_service.go # (Interface & Implementasi Logika Bisnis 'Book')
 │
 ├── .gitignore
 ├── config.yaml         # (File konfigurasi aktual - DIABAIKAN OLEH GIT)
