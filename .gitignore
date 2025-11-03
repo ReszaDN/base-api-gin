@@ -1,8 +1,7 @@
 # === Konfigurasi & Rahasia ===
 # SANGAT PENTING: Abaikan file konfigurasi yang berisi rahasia/password.
 config.yaml
-go.mod
-go.sum
+
 
 # Abaikan file .env jika Anda menggunakannya di masa depan
 .env
