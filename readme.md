@@ -102,7 +102,7 @@ Berikut adalah langkah-langkah untuk menjalankan proyek ini secara lokal.
 Install Go :
 
 ```bash
-go init
+go mod init [NAMA_MODUL] ( ex. base-be )
 ```
 
 Install dependensi:
