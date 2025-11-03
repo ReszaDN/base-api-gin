@@ -13,7 +13,7 @@ Struktur proyek ini dirancang untuk pemisahan tanggung jawab (*Separation of Con
 - **Konfigurasi:** Viper (Manajemen konfigurasi via file config.yaml)
 - **Arsitektur:** Repository Pattern & Service Layer
 - **Struktur Modular:** Rute dan logika bisnis dipisahkan berdasarkan domain/modul (misal: Buku, User).
-- **Pemisahan Perintah:** Perintah terpisah untuk menjalankan server API (`cmd/api`) dan migrasi database (`cmd/migrate`).
+- **Pemisahan Perintah:** Perintah terpisah untuk menjalankan server APInya (`cmd/api`) dan migrasi database (`cmd/migrate`).
 
 ---
 
