@@ -53,10 +53,7 @@ base-be/
 │   └── book_service.go # (Interface & Implementasi Logika Bisnis 'Book')
 │
 ├── .gitignore
-├── config.yaml         # (File konfigurasi aktual - DIABAIKAN OLEH GIT)
 ├── config.yaml.example # (Template/Contoh file konfigurasi - AMAN DI-COMMIT)
-├── go.mod
-├── go.sum
 └── README.md
 ```
 
